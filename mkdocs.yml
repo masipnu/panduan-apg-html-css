@@ -52,6 +52,22 @@ theme:
 
 plugins:
   - search
+  - to-pdf:
+      author: Ipnu Masyaid
+      copyright: Made with ❤️ by Masipnu © 2025
+      cover: true
+      cover_title: Super Cepat - Membuat Dashboard UI
+      cover_subtitle: Panduan Membuat UI Aplikasi Manajemen Pegawai versi HTML - CSS
+      cover_logo: images/team.png
+      back_cover: true
+      toc_title: "Daftar Isi"
+      toc_level: 2
+      ordered_chapter_level: 2
+      heading_shift: false
+      output_path: Super Cepat - Membuat Dashboard UI (Ipnu Masyaid).pdf
+      # Monitoring Proses/ Debug
+      verbose: true
+      debug_html: true
 
 markdown_extensions:
   - admonition
